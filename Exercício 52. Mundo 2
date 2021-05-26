@@ -1,4 +1,4 @@
-primos = int(input('Digite um número intero: '))
+primos = int(input('Digite um número inteiro: '))
 cont = 0
 for i in range(1, primos + 1):
     if primos % i == 0:
