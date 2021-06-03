@@ -1,6 +1,6 @@
 from datetime import date
 
-ano = int(input('Digite ''0'' para usar seu ano atual: '))
+ano = int(input('Digite ''0'' para usar o ano atual: '))
 
 if ano == 0:
     ano = date.today().year
