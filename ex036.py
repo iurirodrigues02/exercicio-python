@@ -14,4 +14,4 @@ if valor_do_empréstimo <= salário*0.30:
     print('\033[1;33mO VALOR DO EMPRÉSTIMO FICOU R${:.2f} DE {:.0f} PARCELAS\n'.format(valor_do_empréstimo, parcelas_mensais))
 elif valor_do_empréstimo > salário*0.30:
     print('\n\033[1;31mSEU EMPRÉSTIMO FOI REPROVADO!!')
-    print('\033[1;33mFOI REPROVADO PORQUE O VALOR DO EMPRÉSTIMO É MAIOR DO QUE 30% DO SEU SALÁRIO. Valor do empréstimo R${:.2f} e os 30% do seu salario R${:.2f}\n'.format(valor_do_empréstimo, salário*0.30))
+    print('\033[1;33mFOI REPROVADO PORQUE O VALOR DO EMPRÉSTIMO É MAIOR DO QUE 30% DO SEU SALÁRIO. Valor do empréstimo R${:.2f} e 30% do seu salario é R${:.2f}\n'.format(valor_do_empréstimo, salário*0.30))
