@@ -1,4 +1,5 @@
 import colorama
+
 colorama.init()
 
 produto = float(input('Digite o valor do produto: '))

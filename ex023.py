@@ -1,6 +1,7 @@
 from time import sleep
 
 num = int(input('Digite um número inteiro de 0 a 9999: '))
+
 num2 = str(int(10000 + num))
 
 print('\nAnalisando número\n')

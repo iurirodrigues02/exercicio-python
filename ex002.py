@@ -1,4 +1,5 @@
 import colorama
+
 colorama.init()
 
 nome = str(input('Digite o seu nome completo: '))

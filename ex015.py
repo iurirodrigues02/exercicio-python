@@ -1,8 +1,11 @@
 from time import sleep
+
 import colorama
+
 colorama.init()
 
 km = float(input('Quantos quilômetros o carro rodou? '))
+
 dias = int(input('Quantos dias o carro rodou? '))
 
 print('''\n\033[1;32mA cada quilômetro rodado é cobrado R$0.15

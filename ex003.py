@@ -1,4 +1,5 @@
 import colorama
+
 colorama.init()
 
 n1 = int(input('Digite um número inteiro: '))
